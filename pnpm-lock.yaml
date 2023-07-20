@@ -6,37 +6,37 @@ settings:
 
 devDependencies:
   '@tsconfig/node-lts':
-    specifier: ^18.12.3
+    specifier: 18.12.3
     version: 18.12.3
   '@types/node':
-    specifier: ^18.16.19
+    specifier: 18.16.19
     version: 18.16.19
   '@typescript-eslint/eslint-plugin':
-    specifier: ^5.62.0
+    specifier: 5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@5.1.6)
   eslint:
-    specifier: ^8.45.0
+    specifier: 8.45.0
     version: 8.45.0
   eslint-config-prettier:
-    specifier: ^8.8.0
+    specifier: 8.8.0
     version: 8.8.0(eslint@8.45.0)
   eslint-config-standard-with-typescript:
-    specifier: ^36.1.0
+    specifier: 36.1.0
     version: 36.1.0(@typescript-eslint/eslint-plugin@5.62.0)(eslint-plugin-import@2.27.5)(eslint-plugin-n@16.0.1)(eslint-plugin-promise@6.1.1)(eslint@8.45.0)(typescript@5.1.6)
   eslint-plugin-import:
-    specifier: ^2.27.5
+    specifier: 2.27.5
     version: 2.27.5(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)
   eslint-plugin-n:
-    specifier: ^16.0.1
+    specifier: 16.0.1
     version: 16.0.1(eslint@8.45.0)
   eslint-plugin-promise:
-    specifier: ^6.1.1
+    specifier: 6.1.1
     version: 6.1.1(eslint@8.45.0)
   prettier:
-    specifier: ^3.0.0
+    specifier: 3.0.0
     version: 3.0.0
   typescript:
-    specifier: ^5.1.6
+    specifier: 5.1.6
     version: 5.1.6
 
 packages:

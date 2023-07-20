@@ -34,5 +34,7 @@ jobs:
         run: pnpm install
       - name: 🧹 Run linter
         run: pnpm lint
-      - name: 🔎 Run type check
+      - name: 👔 Check code formatting
+        run: pnpm format:check
+      - name: 🔎 Check for TypeScript errors
         run: pnpm type-check

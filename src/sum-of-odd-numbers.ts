@@ -10,9 +10,9 @@ export function rowSumOddNumbers(row: number): number {
     { length: row },
     (element = getFirstNumberOfRow(row), index) => {
       return element + index * 2;
-    }
+    },
   ).reduce<number>(
     (previousValue, currentValue) => previousValue + currentValue,
-    0
+    0,
   );
 }

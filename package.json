@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext .js,.cjs,.ts . --ignore-path .gitignore",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "format": "prettier . --ignore-path .prettierignore --ignore-path .gitignore",
+    "format:check": "pnpm format --check",
+    "format:fix": "pnpm format --write"
   },
   "keywords": [],
   "author": "",

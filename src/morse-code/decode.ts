@@ -15,7 +15,7 @@ export function decodeMorse(morseCode: string): string {
           // Decode characters
           .map((character) => MORSE_CODE[character])
           // and convert to string
-          .join("")
+          .join(""),
       )
       // Convert to sentence
       .join(" ")

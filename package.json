@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js,.cjs,.ts . --ignore-path .gitignore"
+    "lint": "eslint --ext .js,.cjs,.ts . --ignore-path .gitignore",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +23,6 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "packageManager": "pnpm@8.6.9"
 }

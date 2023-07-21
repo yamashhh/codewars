@@ -6,16 +6,16 @@ settings:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: ^17.6.7
+    specifier: 17.6.7
     version: 17.6.7
   '@commitlint/config-conventional':
-    specifier: ^17.6.7
+    specifier: 17.6.7
     version: 17.6.7
   '@commitlint/prompt-cli':
-    specifier: ^17.6.7
+    specifier: 17.6.7
     version: 17.6.7
   '@commitlint/types':
-    specifier: ^17.4.4
+    specifier: 17.4.4
     version: 17.4.4
   '@tsconfig/node-lts':
     specifier: 18.12.3
@@ -45,10 +45,10 @@ devDependencies:
     specifier: 6.1.1
     version: 6.1.1(eslint@8.45.0)
   husky:
-    specifier: ^8.0.0
+    specifier: 8.0.0
     version: 8.0.0
   lint-staged:
-    specifier: ^13.2.3
+    specifier: 13.2.3
     version: 13.2.3
   prettier:
     specifier: 3.0.0

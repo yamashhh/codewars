@@ -5,16 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js,.cjs,.ts . --ignore-path .gitignore",
+    "lint": "eslint --ext .js,.cjs,.mjs,.ts . --ignore-path .gitignore",
     "type-check": "tsc --noEmit",
-    "format": "prettier . --ignore-path .prettierignore --ignore-path .gitignore",
+    "format": "prettier . --ignore-path .prettierignore --ignore-path .gitignore --ignore-unknown",
     "format:check": "pnpm format --check",
-    "format:fix": "pnpm format --write"
+    "format:fix": "pnpm format --write",
+    "commit": "commit",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/prompt-cli": "^17.6.7",
+    "@commitlint/types": "^17.4.4",
     "@tsconfig/node-lts": "18.12.3",
     "@types/node": "18.16.19",
     "@typescript-eslint/eslint-plugin": "5.62.0",
@@ -24,6 +30,8 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-n": "16.0.1",
     "eslint-plugin-promise": "6.1.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
     "prettier": "3.0.0",
     "typescript": "5.1.6"
   },

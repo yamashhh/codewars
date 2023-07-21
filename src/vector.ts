@@ -15,14 +15,14 @@ export class Vector {
   add(vector: Vector): Vector {
     this.compareLength(vector);
     return new Vector(
-      this.components.map((value, index) => value + vector.components[index])
+      this.components.map((value, index) => value + vector.components[index]),
     );
   }
 
   subtract(vector: Vector): Vector {
     this.compareLength(vector);
     return new Vector(
-      this.components.map((value, index) => value - vector.components[index])
+      this.components.map((value, index) => value - vector.components[index]),
     );
   }
 
@@ -31,7 +31,7 @@ export class Vector {
     return this.components.reduce(
       (previousValue, currentValue, currentIndex) =>
         previousValue + currentValue * vector.components[currentIndex],
-      0
+      0,
     );
   }
 
@@ -39,8 +39,8 @@ export class Vector {
     return Math.sqrt(
       this.components.reduce(
         (previousValue, currentValue) => previousValue + currentValue ** 2,
-        0
-      )
+        0,
+      ),
     );
   }
 
@@ -52,7 +52,7 @@ export class Vector {
     try {
       this.compareLength(vector);
       return this.components.every(
-        (element, index) => element === vector.components[index]
+        (element, index) => element === vector.components[index],
       );
     } catch {
       // NOTE:

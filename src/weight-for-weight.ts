@@ -1,7 +1,7 @@
 function calculateWeightOfNumber(str: string): number {
   return [...str].reduce(
     (previousValue, currentValue) => previousValue + Number(currentValue),
-    0
+    0,
   );
 }
 

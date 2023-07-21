@@ -1,7 +1,7 @@
 export function bouncingBall(
   h: number,
   bounce: number,
-  window: number
+  window: number,
 ): number {
   // your code
   if (h <= 0 || bounce <= 0 || bounce >= 1 || window >= h) {

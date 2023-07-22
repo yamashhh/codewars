@@ -1,7 +1,8 @@
 const COMMANDS_FOR_JAVASCRIPT = ["pnpm lint", "pnpm format:fix"];
 
 export default {
-  "*.ts": ["pnpm type-check", ...COMMANDS_FOR_JAVASCRIPT],
+  // https://github.com/okonet/lint-staged/issues/825#issuecomment-620018284
+  "*.ts": [() => "pnpm type-check", ...COMMANDS_FOR_JAVASCRIPT],
   "*.{js,cjs,mjs}": COMMANDS_FOR_JAVASCRIPT,
   "!(*.{js,cjs,mjs,ts})": "pnpm format:fix",
 };

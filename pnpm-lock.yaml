@@ -18,8 +18,8 @@ devDependencies:
     specifier: 17.4.4
     version: 17.4.4
   '@tsconfig/node-lts':
-    specifier: 18.12.3
-    version: 18.12.3
+    specifier: 18.12.4
+    version: 18.12.4
   '@types/node':
     specifier: 18.17.6
     version: 18.17.6
@@ -608,8 +608,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tsconfig/node-lts@18.12.3:
-    resolution: {integrity: sha512-a8FraAjwaGKERCO5PowJeeCE/0Kv1whqegfNwJRIPG08Z5QDr6Kl1CgRrdIjGQtUCpSm+/BDCGeRKfAF1mg+ZQ==}
+  /@tsconfig/node-lts@18.12.4:
+    resolution: {integrity: sha512-yjhgQkwlIjxDksTSDbFl6fDOekgD0DeHXwfpxEnRY8rwK28UjgMf67b+l8SSVS0sRpOb/xYEKPJ8DpzhgLokZA==}
     dev: true
 
   /@tsconfig/node10@1.0.9:

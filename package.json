@@ -30,7 +30,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.6.0",
-    "husky": "8.0.3",
+    "husky": "9.1.7",
     "lint-staged": "14.0.1",
     "prettier": "3.6.2",
     "tsx": "3.14.0",
